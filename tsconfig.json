@@ -1,0 +1,16 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "bin",
+    "declarationMap": true,
+    "target": "es2022",
+    "moduleResolution": "nodeNext",
+    "module": "nodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

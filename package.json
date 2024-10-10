@@ -1,0 +1,28 @@
+{
+  "name": "solana-changelog",
+  "version": "1.0.1",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "solana-changelog": "./bin/index.js",
+    "changelog": "./bin/index.js"
+  },
+  "scripts": {
+    "changelog": "esrun ./src/index.ts",
+    "build": "tsc",
+    "dev": "esrun ./src/index.ts"
+  },
+  "author": "nickfrosty",
+  "license": "MIT",
+  "devDependencies": {
+    "esrun": "^3.2.26",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "octokit": "^3.1.2",
+    "picocolors": "^1.0.0"
+  }
+}
