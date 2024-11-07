@@ -157,7 +157,7 @@ async function main() {
 
   // add in the stack exchange rankings link
   let changelog =
-    `Some more Solana changes from Nick & Jacob.\n\n` +
+    `Some more Solana changes from Nick & Jonas.\n\n` +
     `Subscribe to the newsletter: https://solana.com/newsletter\n\n` +
     `Solana StackExchange weekly rankings:\n` +
     ` - https://stackexchange.com/leagues/714/week/solana/${previousSundayDate
@@ -188,7 +188,7 @@ async function main() {
 
   changelog +=
     `- Nick: https://x.com/nickfrosty\n` +
-    `- Jacob:  https://x.com/jacobvcreech\n`;
+    `- Jonas:  https://x.com/SolPlay_jonas\n`;
 
   changelog +=
     `\n` +
